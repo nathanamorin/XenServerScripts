@@ -16,7 +16,7 @@ for vmStr in inputStr.split('\n\n'):
 		pos = vmStr.find(': ')
 		name = vmStr[:vmStr[:pos].find('(')].strip()
 		if name == '':
-		continue
+			continue
 		vm[ name ] = vmStr[pos+2:]
 
 
