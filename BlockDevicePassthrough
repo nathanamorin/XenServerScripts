@@ -1,5 +1,0 @@
-mkdir /srv/YOUR_SR_NAME 
-xe sr-create name-label=”MY BLOCK SR” name-description=”MY BLOCK SR” type=udev content-type=disk device-config:location=/srv/YOUR_SR_NAME
-ln -s /dev/sdb /srv/YOUR_SR_NAME/sdb
-xe sr-scan uuid=YOUR_NEW_UUID
-xe vdi-list sr-uuid=YOUR_NEW_UUID
