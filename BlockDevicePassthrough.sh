@@ -1,5 +1,6 @@
 #!/bin/bash
 #Usage curl https://raw.githubusercontent.com/nathanamorin/XenServerScripts/master/BlockDevicePassthrough.sh | bash -s BlockStorageName /dev/DEVICE_NAME
+#Adapted from http://zerodispersion.com/xenserver-whole-disk-passthrough/
 STORNAME=$1
 DEVICE_NAME=$2
 
