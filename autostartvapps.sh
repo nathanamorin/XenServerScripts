@@ -4,11 +4,8 @@
 # Comments updated and added to XenServerScripts repo by Nathan Morin - https://nathanmorin.com
 # SRC http://www.virtues.it/2014/12/step-by-step-guide-automatically-start-a-vapp-on-xenserver/
 
-# Copy this script to \opt\autostartvapps.sh
-# Make executable chmod +x \opt\autostartvapps.sh
-# Add ... to /etc/rc.d/rc.local for start on boot
-# 	sleep 40
-# 	sh /opt/autostartvapps.sh
+# Start script /opt/autostartvapps.sh on boot
+# add @reboot /opt/autostartvapps.sh to crontab
 # Add below tag to description of vApp and vApp with start on boot
 
 
